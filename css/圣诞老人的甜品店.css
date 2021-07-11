@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "myFont";
+    src: url("../font/zhengguifont.woff2") format('woff2');
+}
+@font-face {
+    font-family: "stylefont";
+    src: url("../font/stylefont.woff2") format('woff2');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*导航栏*/
+.nav{
+    width: 100%;
+    height: 91px;
+    background: #DCECFF;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+
+}
+.nav .zbox{
+    width: 1000px;
+    margin: 0 auto;
+    /*border: solid;*/
+    position: relative;
+}
+.nav .zbox ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: myFont;
+    text-align: center;
+}
+.nav .zbox img{
+    width: 121px;
+    height: 59px;
+    margin-top: 14px;
+    margin-bottom: 19px;
+}
+.nav .zbox .box1{
+    width: 564px;
+    height: 106px;
+    float: right;
+    /*border: solid;*/
+    line-height: 91px;
+    margin-right: 222px;
+}
+.nav .zbox p{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    line-height: 91px;
+    font-family: myFont;
+}
+.nav .zbox a{
+    text-decoration: none;
+    color: black;
+}
+.nav .zbox .vbox{
+    /*border: solid;*/
+    width: 110px;
+    height: 91px;
+    border-radius: 29px;
+}
+.nav .zbox .vbox:hover{
+    background-image: linear-gradient(to bottom right, #EAD6EE , #A0F1EA);
+}
+.nav .zbox #lasta:hover{
+    color:  #AB1629;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 500px;
+    /*border: solid;*/
+    margin-top: 91px;
+    background: url("../images/3.jpg") no-repeat;
+    background-size: 100%;
+    padding: 1px;
+}
+.header .box1{
+    width: 612px;
+    height: 333px;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-left: 43px;
+    margin-top: 32px;
+    padding: 1px;
+    background: url("../images/beijing1.jpg") no-repeat;
+    background-size: 100%;
+
+}
+.header .box1:hover{
+    box-shadow: 0px 0px 19px 9px #4AB392;
+}
+.header .box2{
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.5);
+    margin-left: 116px;
+    margin-top: 51px;
+    padding: 1px;
+    background-image: linear-gradient(to bottom right, #EAD6EE , #A0F1EA);
+
+}
+.header .box1 h1{
+    text-align: center;
+    margin-top: 47px;
+    font-family: myFont;
+    font-size: 35px;
+    color: gray;
+}
+.header .box1 p{
+    text-indent: 2em;
+    margin-top: 20px;
+    line-height: 32px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: gray;
+}
+
+.dangao1{
+    width: 100%;
+    height: 660px;
+    /*border: solid;*/
+    background:black ;
+    margin-bottom: 50px;
+}
+.dangao1 img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*底部商家信息*/
+.footer{
+    width: 100%;
+    height: 200px;
+    /*border: solid;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #313131;
+    margin-top: -50px;
+}
+.footer .box1{
+    width: 1110px;
+    height: 81px;
+    border-top: solid white;
+}
+.footer .box1 p{
+    color: white;
+    font-family: myFont;
+    font-weight: 1;
+    font-size: 14px;
+}
+.footer .box1 p:first-child{
+    float: left;
+    margin-top: 17px;
+    margin-left: 9px;
+}
+.footer .box1 p:nth-child(2){
+    float: right;
+    margin-top: 26px;
+    margin-right: 75px;
+}
+.footer .box1 img{
+    margin-top: 13px;
+    margin-left: 182px;
+}
+
+.backtop{
+    width: 50px;
+    height: 50px;
+    border: solid #4AB392;
+    position: fixed;
+    right: 0;
+    top: 356px;
+}
+.backtop p{
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: #4AB392;
+}
+.backtop a{
+    text-decoration: none;
+}
+

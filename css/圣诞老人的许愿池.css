@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "myFont";
+    src: url("../font/zhengguifont.woff2") format('woff2');
+}
+@font-face {
+    font-family: "stylefont";
+    src: url("../font/stylefont.woff2") format('woff2');
+}
+@font-face {
+    font-family: "stylefont2";
+    src: url("../font/HYGuoQiangXingShuW.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    /*background-image: linear-gradient(to bottom right, #EAD6EE , #A0F1EA);*/
+    /*background: #4AB392;*/
+    background-image: linear-gradient(to right, #00c9ff , #92fe9d );
+}
+
+
+/*导航栏*/
+.nav{
+    width: 100%;
+    height: 91px;
+    background: #DCECFF;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+
+}
+.nav .zbox{
+    width: 1000px;
+    margin: 0 auto;
+    /*border: solid;*/
+    position: relative;
+}
+.nav .zbox ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: myFont;
+    text-align: center;
+}
+.nav .zbox img{
+    width: 121px;
+    height: 59px;
+    margin-top: 14px;
+    margin-bottom: 19px;
+}
+.nav .zbox .box1{
+    width: 564px;
+    height: 106px;
+    float: right;
+    /*border: solid;*/
+    line-height: 91px;
+    margin-right: 222px;
+}
+.nav .zbox p{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    line-height: 91px;
+    font-family: myFont;
+}
+.nav .zbox a{
+    text-decoration: none;
+    color: black;
+}
+.nav .zbox .vbox{
+    /*border: solid;*/
+    width: 110px;
+    height: 91px;
+    border-radius: 29px;
+}
+.nav .zbox .vbox:hover{
+    background-image: linear-gradient(to bottom right, #EAD6EE , #A0F1EA);
+}
+.nav .zbox #lasta:hover{
+    color:  #AB1629;
+}
+
+
+.wish{
+    width: 1000px;
+    height: 550px;
+    margin: 140px auto;
+    /*border: solid;*/
+    padding: 1px;
+    background: url("../images/wishbeijing.jpg") no-repeat;
+    background-size: 1000px 550px;
+    border-radius: 10px;
+    position: relative;
+}
+.wish .box1{
+    width: 471px;
+    height: 300px;
+    margin: 135px auto;
+    /*border: solid;*/
+}
+.wish .box1 h2{
+    text-align: center;
+    font-family: stylefont2;
+    font-size: 42px;
+    color: #92fe9d;
+}
+.wish .box1 p{
+    margin-top: 20px;
+    font-family: myFont;
+    font-size: 15px;
+    color: #09CCF9;
+    text-indent: 2em;
+    line-height: 30px;
+}
+.wish .box1 button{
+    margin: 15px auto;
+    width: 100px;
+    height: 35px;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.wish .box1 button:hover{
+    background: #92fe9d;
+}
+
+.wish .box2{
+    width: 140px;
+    height: 165px;
+    /*border: solid;*/
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*底部商家信息*/
+.footer{
+    width: 100%;
+    height: 200px;
+    /*border: solid;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #313131;
+}
+.footer .box1{
+    width: 1110px;
+    height: 81px;
+    border-top: solid white;
+}
+.footer .box1 p{
+    color: white;
+    font-family: myFont;
+    font-weight: 1;
+    font-size: 14px;
+}
+.footer .box1 p:first-child{
+    float: left;
+    margin-top: 17px;
+    margin-left: 9px;
+}
+.footer .box1 p:nth-child(2){
+    float: right;
+    margin-top: 26px;
+    margin-right: 75px;
+}
+.footer .box1 img{
+    margin-top: 13px;
+    margin-left: 182px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

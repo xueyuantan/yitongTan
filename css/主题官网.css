@@ -1,0 +1,788 @@
+@font-face {
+    font-family: "myFont";
+    src: url("../font/zhengguifont.woff2") format('woff2');
+}
+@font-face {
+    font-family: "stylefont";
+    src: url("../font/stylefont.woff2") format('woff2');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*导航栏*/
+.nav{
+    width: 100%;
+    height: 91px;
+    background: #DCECFF;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+
+}
+.nav .zbox{
+    width: 1000px;
+    margin: 0 auto;
+    /*border: solid;*/
+    position: relative;
+}
+.nav .zbox ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: myFont;
+    text-align: center;
+}
+.nav .zbox img{
+    width: 121px;
+    height: 59px;
+    margin-top: 14px;
+    margin-bottom: 19px;
+}
+.nav .zbox .box1{
+    width: 564px;
+    height: 106px;
+    float: right;
+    /*border: solid;*/
+    line-height: 91px;
+    margin-right: 222px;
+}
+.nav .zbox p{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    line-height: 91px;
+    font-family: myFont;
+}
+.nav .zbox a{
+    text-decoration: none;
+    color: black;
+}
+.nav .zbox .vbox{
+    /*border: solid;*/
+    width: 110px;
+    height: 91px;
+    border-radius: 29px;
+}
+.nav .zbox .vbox:hover{
+    background-image: linear-gradient(to bottom right, #EAD6EE , #A0F1EA);
+}
+.nav .zbox #lasta:hover{
+    color:  #AB1629;
+}
+
+/*头部*/
+.header{
+    width: 100%;
+    height: 402px;
+    margin: 0 auto;
+    background: #DCECFF;
+    position: relative;
+    margin-top: 91px;
+}
+.header .box1 img:first-child{
+    width: 455px;
+    height: 371px;
+    position: absolute;
+    left: 165px;
+    top: 3px;
+}
+.header .box1 img:last-child{
+    width: 170px;
+    height: 196px;
+    position: absolute;
+    right: 129px;
+    top: 179px;
+}
+.header .box1{
+    width: 763px;
+    height: 349px;
+    /*border: solid;*/
+    position: relative;
+}
+.header .box2{
+    width: 575px;
+    height: 349px;
+    /*border: solid;*/
+    position: absolute;
+    top: 42px;
+    right: 108px;
+}
+.header .box2 h3{
+    font-family: myFont;
+}
+.header .box2 h1{
+    font-family: stylefont;
+    margin-top: 6px;
+    color: #AB1629;
+}
+.header .box2 p{
+    font-family: myFont;
+    text-indent: 2em;
+    margin-top: 5px;
+}
+.header .box2 .box3{
+    width: 105px;
+    height: 35px;
+    border-radius: 5px;
+    border:0.9px solid #AB1629;
+    background: #AB1629;
+    margin-top: 70px;
+}
+.header .box2 .box3 a{
+    color: white;
+    text-decoration: none;
+    margin-left: 11px;
+    line-height: 35px;
+    font-family: myFont;
+}
+.header .box2 .box3:hover{
+   background: transparent;
+}
+.header .box2 .box3:hover a{
+    color: #AB1629;
+}
+
+/*今日特价*/
+.gift{
+    width: 100%;
+    height: 500px;
+    /*border:solid;*/
+    background: url("../images/3.png") no-repeat;
+    background-size: 220px 500px;
+    background-position: right top;
+    position: relative;
+}
+.gift .pic1{
+    width: 375px;
+    height: 301px;
+    /*border: solid;*/
+    position: absolute;
+    top: 103px;
+    left: 274px;
+    background: url(../images/7.png) no-repeat;
+    background-size: 100%;
+}
+.gift .pic2{
+    width: 518px;
+    height: 259px;
+    /*border: solid;*/
+    position: absolute;
+    top: 103px;
+    left: 702px;
+    background: url("../images/13.jpg") no-repeat;
+    background-size: 100%;
+}
+.gift .pic1 h2{
+    font-family: stylefont;
+    margin-top: 77px;
+    margin-left: 249px;
+    font-size: 60px;
+    color: #AB1629;
+    font-weight: 1;
+}
+.gift .pic1 h3{
+    font-family: stylefont;
+    margin-left: 207px;
+    font-size: 30px;
+    font-weight: 1;
+}
+.gift .pic1 .box1{
+    width: 105px;
+    height: 35px;
+    border-radius: 5px;
+    border:0.9px solid #AB1629;
+    margin-left: 231px;
+    margin-top: 10px;
+}
+.gift .pic1 .box1 a{
+    color: #AB1629;
+    text-decoration: none;
+    line-height: 35px;
+    margin-left: 16px;
+   font-family: myFont;
+}
+.gift .pic1 .box1:hover{
+    background: #AB1629;
+}
+.gift .pic1 .box1:hover a{
+    color: white;
+}
+
+.gift .pic2 h2{
+    font-family: stylefont;
+    margin-top: 77px;
+    margin-left: 276px;
+    font-size: 21px;
+    color: white;
+    font-weight: 1;
+}
+.gift .pic2 h3{
+    font-family: stylefont;
+    margin-left: 271px;
+    font-size: 34px;
+    font-weight: 1;
+    color: white;
+}
+.gift .pic2 .box2{
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0.9px solid #AB1629;
+    margin-left: 279px;
+    margin-top: 25px;
+    background:white;;
+}
+.gift .pic2 .box2 a{
+    font-family: myFont;
+    color: #AB1629;
+    text-decoration: none;
+    line-height: 35px;
+    margin-left: 10px;
+}
+.gift .pic2 .box2:hover{
+    background: #AB1629;
+}
+.gift .pic2 .box2:hover a{
+    color: white;
+}
+
+/*特价商品*/
+.product{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    /*border: solid;*/
+    margin-top: -26px;
+}
+.product .top{
+    width: 540px;
+    height: 85px;
+    /*border: solid;*/
+    margin: 0 auto;
+}
+.product .top h2{
+    font-family: stylefont;
+    color: #AB1629;
+    font-size: 32px;
+    font-weight: 1;
+    text-align: center;
+}
+.product .top p{
+    font-family: myFont;
+    font-size: 14px;
+    text-align: center;
+}
+.product .contain{
+    width: 1000px;
+    height: 324px;
+    /*border: solid;*/
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.product .contain div{
+    width: 255px;
+    height: 324px;
+    /*border: solid;*/
+}
+.product .contain div img{
+    width: 220px;
+    height: 260px;
+    border-radius: 7px;
+    margin-left: 14px;
+    margin-top: 5px;
+}
+.product .contain div p{
+    font-family: myFont;
+    margin-left: 14px;
+    margin-top: 5px;
+}
+.product .contain div p:last-child{
+    font-size: 12px;
+}
+.product .contain div span{
+    margin-left: 67px;
+    color: orange;
+}
+.product .contain .hover1{
+    width: 220px;
+    height: 0;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 5px;
+    left: 14px;
+    overflow: hidden;
+    transition: 0.1s;
+}
+.product .contain div:hover .hover1{
+    width: 220px;
+    height: 260px;
+}
+.product .contain .hover1 span{
+    width: 112px;
+    display: block;
+    /*border: solid;*/
+    text-align: center;
+    margin-top: 121px;
+    font-size: 24px;
+    margin-left: 54px;
+}
+.product .contain .hover1 i{
+    cursor: pointer;
+}
+
+.product .contain .hover2{
+    width: 220px;
+    height: 0;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 5px;
+    left: 264px;
+    overflow: hidden;
+    transition: 0.1s;
+}
+.product .contain div:hover .hover2{
+    width: 220px;
+    height: 260px;
+}
+.product .contain .hover2 span{
+    width: 112px;
+    display: block;
+    /*border: solid;*/
+    text-align: center;
+    margin-top: 121px;
+    font-size: 24px;
+    margin-left: 54px;
+}
+.product .contain .hover2 i{
+    cursor: pointer;
+}
+
+.product .contain .hover3{
+    width: 220px;
+    height: 0;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 5px;
+    left: 514px;
+    overflow: hidden;
+    transition: 0.1s;
+}
+.product .contain div:hover .hover3{
+    width: 220px;
+    height: 260px;
+}
+.product .contain .hover3 span{
+    width: 112px;
+    display: block;
+    /*border: solid;*/
+    text-align: center;
+    margin-top: 121px;
+    font-size: 24px;
+    margin-left: 54px;
+}
+.product .contain .hover3 i{
+    cursor: pointer;
+}
+
+.product .contain .hover4{
+    width: 220px;
+    height: 0;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 5px;
+    left: 764px;
+    overflow: hidden;
+    transition: 0.1s;
+}
+.product .contain div:hover .hover4{
+    width: 220px;
+    height: 260px;
+}
+.product .contain .hover4 span{
+    width: 112px;
+    display: block;
+    /*border: solid;*/
+    text-align: center;
+    margin-top: 121px;
+    font-size: 24px;
+    margin-left: 54px;
+}
+.product .contain .hover4 i{
+    cursor: pointer;
+}
+
+/*顾客评语*/
+.customer{
+    width: 100%;
+    height: 392px;
+    background: url("../images/12.jpg") no-repeat;
+    background-size: 100%;
+    padding: 1px;
+}
+
+.customer .banner{
+    width:540px;
+    height: 330px;
+    margin: 0 auto;
+    margin-top: 32px;
+    /*border: solid;*/
+    position: relative;
+    overflow: hidden;
+}
+.customer .banner .box{
+    width: 540px;
+    height: 330px;
+    /*border: solid red;*/
+    /*background: greenyellow;*/
+    /*cursor: pointer;*/
+    float: left;
+    background: url("../images/1.png") no-repeat;
+
+}
+.banner .banner_pic{
+    list-style: none;
+    width: 500%;
+    height: 330px;
+    /*border: blue solid;*/
+}
+.banner .box img{
+    display: block;
+    margin: 8px auto;
+}
+.banner .box h3{
+    text-align: center;
+    font-family: myFont;
+    font-weight: 1;
+    font-size: 20px;
+    color: #ADADAD;
+}
+.banner .box h5{
+    text-align: center;
+    font-family: myFont;
+    font-weight: 1;
+    font-size: 16px;
+    color: #ADADAD;
+    margin-top: 3px;
+}
+.banner .box p{
+    text-align: center;
+    font-family: myFont;
+    font-weight: 1;
+    font-size: 14px;
+    color: #ADADAD;
+    margin-top: 6px;
+}
+
+.banner #button{
+    position: absolute;
+    left: 46%;
+    top: 91%;
+    margin-left: -50px;
+    list-style: none;
+    font-size: 13px;
+}
+.banner #button .but{
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: white;
+    /*border-radius: 50%;*/
+    margin-right: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.banner ol li{
+    cursor: pointer;
+}
+.banner ol .current2{
+    background-image: linear-gradient(to bottom right, #EAD6EE , #A0F1EA);
+    float: left;
+    width: 15px;
+    height: 15px;
+    /*border-radius: 50%;*/
+    margin-right: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.banner .left-arrow {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    position: absolute;
+    top: 43%;
+    left: 21px;
+    font-size: 23px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    color: #0A584B;
+}
+.banner .left-arrow:hover{
+    background-image: linear-gradient(to bottom right, #EAD6EE , #A0F1EA);
+}
+
+.banner .right-arrow {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    position: absolute;
+    top: 43%;
+    right: 21px;
+    font-size: 23px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    color: #0A584B;
+}
+.banner .right-arrow:hover{
+    background-image: linear-gradient(to bottom right, #EAD6EE , #A0F1EA);
+}
+
+/*优惠券*/
+.ticket{
+    width: 100%;
+    height: 644px;
+    border: solid white;
+    background: url("../images/16.png") no-repeat;
+    background-position: left top;
+}
+.ticket .box1{
+    width: 540px;
+    height: 94px;
+    margin: 0 auto;
+}
+.ticket .box1 h2{
+    text-align: center;
+    font-family: stylefont;
+    font-weight: 1;
+    font-size: 32px;
+    color: #AB1629;
+    margin-top: 100px;
+}
+.ticket .box1 p{
+    font-family: myFont;
+    font-size: 12px;
+    text-align: center;
+}
+.ticket .box2{
+    width: 900px;
+    height: 404px;
+    margin: 0 auto;
+    /*border: solid;*/
+    position: relative;
+}
+.ticket .box2 img{
+    width: 560px;
+    position: absolute;
+    top: 69px;
+    left: -134px;
+}
+.ticket .box2 .box3{
+    width: 445px;
+    height: 340px;
+    position: absolute;
+    top: 0;
+    right: -10px;
+    /*border: solid;*/
+    padding-top: 58px;
+}
+.ticket .box2 .box3 p{
+    font-family: myFont;
+    font-size: 12px;
+    font-weight: 1;
+}
+.ticket .box2 .box3 p:nth-child(2){
+    margin-top: 25px;
+}
+.ticket .box2 .box3 div{
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    border:0.9px solid #AB1629;
+    margin-top: 30px;
+}
+.ticket .box2 .box3 div a{
+    text-decoration: none;
+    color: #AB1629;
+    margin-left: 12px;
+    line-height: 35px;
+}
+.ticket .box2 .box3 .btn1{
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+.ticket .box2 .box3 .btn2{
+    position: relative;
+    top: -46px;
+    left: 177px;
+}
+.ticket .box2 .box3 .btn1:hover{
+    background: #AB1629;
+}
+.ticket .box2 .box3 .btn1:hover a{
+   color: white;
+}
+.ticket .box2 .box3 .btn2:hover{
+    background: #AB1629;
+}
+.ticket .box2 .box3 .btn2:hover a{
+    color: white;
+}
+
+/*倒计时间栏*/
+.time{
+    width: 100%;
+    height: 200px;
+    background: url("../images/11.jpg") no-repeat;
+    display: flex;
+    /*border: solid;*/
+    justify-content: center;
+    align-items: center;
+
+}
+.time div{
+    width: 160px;
+    height: 108px;
+    /*border: solid;*/
+    margin-right: 86px;
+}
+.time div .d{
+    text-align: center;
+    font-weight: 1;
+    font-family: stylefont;
+    font-size: 50px;
+}
+.time div h2{
+    font-family: myFont;
+    font-size: 40px;
+}
+
+/*博客动态*/
+.boke{
+    width: 100%;
+    height: 750px;
+    /*border: solid;*/
+}
+.boke .box1{
+    width: 540px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.boke .box1 h2{
+    text-align: center;
+    font-family: stylefont;
+    color: #AB1629;
+    font-weight: 1;
+    font-size: 32px;
+}
+.boke .box1 p{
+    text-align: center;
+    font-family: myFont;
+    font-weight: 1;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.boke .contain{
+    width: 1140px;
+    height: 580px;
+    /*border: solid;*/
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.boke .contain div{
+    width: 380px;
+    height: 570px;
+    /*border: solid;*/
+    background: url("../images/1.png") no-repeat;
+    background-position: top center;
+    background-size: 370px;
+}
+.boke .contain div img{
+    width: 350px;
+    height: 302px;
+    margin-left: 10px;
+    margin-top: 23px;
+}
+.boke .contain div h2{
+    font-family: myFont;
+    font-weight: 1;
+    font-size: 15px;
+    margin-left: 23px;
+    margin-top: 13px;
+}
+.boke .contain div p{
+    font-family: myFont;
+    font-weight: 1;
+    font-size: 14px;
+    margin-left: 23px;
+    margin-top: 43px;
+}
+.boke .contain div a{
+    text-decoration: none;
+    color: black;
+    font-family: myFont;
+    font-weight: 1;
+    font-size: 16px;
+    margin-left: 23px;
+    margin-top: 20px;
+    display: block;
+}
+.boke .contain div .boxp2{
+    font-size: 12px;
+}
+.boke .contain div .boxp2 span{
+    margin-left: 91px;
+}
+
+/*底部商家信息*/
+.footer{
+    width: 100%;
+    height: 200px;
+    /*border: solid;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #313131;
+}
+.footer .box1{
+    width: 1110px;
+    height: 81px;
+    border-top: solid white;
+}
+.footer .box1 p{
+    color: white;
+    font-family: myFont;
+    font-weight: 1;
+    font-size: 14px;
+}
+.footer .box1 p:first-child{
+    float: left;
+    margin-top: 17px;
+    margin-left: 9px;
+}
+.footer .box1 p:nth-child(2){
+    float: right;
+    margin-top: 26px;
+    margin-right: 75px;
+}
+.footer .box1 img{
+    margin-top: 13px;
+    margin-left: 182px;
+}
+
+

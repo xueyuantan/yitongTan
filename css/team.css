@@ -1,0 +1,71 @@
+@font-face{
+    font-family:"myFont";
+    src: url("../font/演示春风楷.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#ededed;
+    color: gray;
+    width: 850px;
+    background-image: url(../images/beijing1.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    margin:0 auto;
+}
+html,body{
+    height: 100%;
+}
+
+.header h1{
+    text-align: center;
+    margin: 111px 0px auto;
+    font-family:"myFont";
+}
+.header hr{
+    margin-top: 5px;
+}
+.con1{
+    height: 100px;
+}
+.con1 img{
+    width: 90px;
+    height:90px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px 20px 0px 0px;
+}
+.con1 details{
+    padding-top: 10px;
+}
+.con1 mark{
+    background: none;
+}
+
+.con2{
+    height: 100px;
+}
+.con2 img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px 20px 0px 0px;
+}
+.con2 details{
+    padding-top: 10px;
+}
+.con2 mark{
+    background: none;
+}
+summary{
+    font-size: 20px;
+}
+mark{
+    margin-left: 25px;
+}
+img{
+    box-shadow: 7px 7px 5px -2px;
+}

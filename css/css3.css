@@ -1,0 +1,115 @@
+@font-face {
+    font-family: myFont;
+    src: url("../font/仿宋_GB2312.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background: url("../images/sun.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#error_box{
+    margin-left: 100px;
+    margin-top: 1px;
+    width: 164px;
+    height: 43px;
+}
+.box{
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login{
+    width: 370px;
+    height: 270px;
+    border-radius: 20px;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.7);
+}
+.login img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    margin: 30px auto;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+input[type="text"]{
+    background-image: url("../images/user.jpg");
+    background-repeat: no-repeat;
+    background-size: 13px 14px;
+    padding-left: 14px;
+    margin-top: 30px;
+}
+input[type="password"]{
+    background-image: url("../images/psw.jpg");
+    background-repeat: no-repeat;
+    background-size: 13px 14px;
+    padding-left: 14px;
+    margin-top: 15px;
+}
+
+.bt{
+    width: 170px;
+    height: 20px;
+    margin: 5px auto;
+    position: relative;
+}
+
+.bt a{
+    text-decoration: none;
+    margin-left: 27px;
+    background: orange;
+    color: black;
+    font-family: myFont;
+}
+input[type="submit"]{
+    width: 40px;
+    height: 17px;
+    position: absolute;
+    top: 2px;
+    left: 90px;
+    background: orange;
+    color: black;
+    cursor:pointer;
+    border-style: none;
+    font-family: myFont;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/css4.css" type="text/css">
+    <script type="text/javascript" src="js/js3.js"></script>
+    <script src="https://cdn.bootcss.com/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+</head>
+<body>
+
+<form action="index.html">
+    <div class="box">
+        <p>欢迎注册</p>
+        <p>已有账号? <a href="index.html"><span>登录</span></a></p>
+
+        <table>
+            <tr>
+                <td>用户名</td>
+                <td><input type="text" name="sname1" required maxlength="6" placeholder="用户名"></td>
+            </tr>
+
+            <tr>
+                <td style="margin-top: 17px;display: block;white-space: pre;" >密   码</td>
+                <td>
+                    <input type="password" name="sname2" placeholder="密码" required="required"
+                           pattern="(?=.*[a-zA-Z])(?=.*[0-9])[\w]{6,10}">
+                </td>
+            </tr>
+
+            <tr>
+                <td style="white-space: pre;margin-top: 12px;display: block;">性   别</td>
+                <td>
+                    <input type="radio" checked name="sex" id="nan"><label for="nan">男</label>
+                    <input type="radio" name="sex" id="nv"><label for="nv">女</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="margin-top: 17px;display: block;">出生日期</td>
+                <td><input type="date" value="2020-11-19"></td>
+            </tr>
+            <tr>
+                <td style="margin-top: 19px;display: block;">兴趣爱好</td>
+                <td>
+                    <input type="checkbox" id="book"><label for="book">看书</label>
+                    <input type="checkbox" id="music"><label for="music">听音乐</label>
+                    <input type="checkbox" id="edit"><label for="edit">编程</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="margin-top: 19px;display: block;">所在地区</td>
+                <td>
+                    <select>
+                        <optgroup label="重庆市">
+                            <option>合川区</option>
+                            <option>渝北区</option>
+                            <option>巴南区</option>
+                        </optgroup>
+                        <optgroup label="浙江">
+                            <option>南湖区</option>
+                            <option>秀洲区</option>
+                            <option>秀南区</option>
+                        </optgroup>
+                        <optgroup label="河北">
+                            <option>桥东区</option>
+                            <option>桥西区</option>
+                            <option>新东区</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="margin-top: 19px;display: block;">密保问题</td>
+                <td>
+                    <select>
+                        <option>请选择</option>
+                        <option>你最喜欢的格言是什么</option>
+                        <option>你家乡的名称是什么</option>
+                        <option>你读的小学叫什么</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="margin-top: 19px;display: block;">密保答案</td>
+                <td><input type="text" placeholder="密保答案" style="margin-top: 17px;"></td>
+            </tr>
+            <tr>
+                <td style="margin-top: 19px;display: block;">QQ邮箱</td>
+                <td><input type="text" placeholder="QQ邮箱@qq.com" pattern="^\d{10}(@qq.com)$" style="margin-top: 17px;"></td>
+            </tr>
+            <tr>
+                <td class="qianming">座右铭</td>
+                <td>
+                    <textarea placeholder="设置您的签名^_^"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td style="margin-top: 21px;display: block;">上传文件</td>
+                <td><input type="file"></td>
+            </tr>
+            <input type="submit" value="注册"  onclick="setCookie('bao',document.all.sname1.value,'bao2',document.all.sname2.value)">
+        </table>
+    </div>
+</form>
+
+</body>
+</html>

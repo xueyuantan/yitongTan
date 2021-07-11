@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+    /*border: solid;*/
+    background: lemonchiffon;
+    background: url("../images/sun.jpg") no-repeat;
+    background-size: 100%;
+}
+
+
+.box{
+    width: 700px;
+    height: 700px;
+    border-radius: 20px;
+    margin: 30px auto 0;
+    padding: 1px;
+    background: rgba(255,255,255,0.7);
+    position: relative;
+
+
+}
+.box p:first-child{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.box p:nth-child(2){
+    font-size: 10px;
+    margin-left: 30px;
+    color: gray;
+}
+.box span{
+    color: blue;
+}
+.box table{
+    display: block;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.box input[type="text"]{
+    margin-left: 10px;
+    width: 180px;
+    height:25px ;
+    border-radius: 5px;
+}
+.box input[type="password"]{
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 180px;
+    height:25px ;
+    border-radius: 5px;
+}
+.box input[type="radio"]{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.box input[type="date"]{
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 180px;
+    height:25px ;
+    border-radius: 5px;
+}
+.box input[type="checkbox"]{
+    margin-left: 10px;
+    margin-top: 23px;
+}
+.box select{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 180px;
+    height:25px ;
+    border-radius: 5px;
+}
+.box textarea{
+    width: 270px;
+    height:150px ;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 140px;
+    padding:10px;
+    resize:none;
+}
+.qianming{
+    position: absolute;
+    right: 320px;
+    top: 200px;
+}
+.box input[type="file"]{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.box input[type="submit"]{
+    position: absolute;
+    left: 40%;
+    top: 85%;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
